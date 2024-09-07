@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./main.js"></script>
+    <!-- boxt-icons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Furnitura</title>
+   
+</head>
+<body class="bg-slate-100 dark:bg-slate-950">
+        <nav class="bg-zinc-800 py-3 shadow-lg sticky top-0 z-30 dark:bg-slate-950">
+            <div class="container flex justify-between mx-auto items-center">
+            <div class="flex items-center">
+           <a href="">
+            
+            <img src="public/imgs/logo1.jpg" alt="" class=" size-24 ml-3" >
+           
+           </a>
+          
+          </div>
+           
+           <div class="hidden sm:block">
+           <div class=" text-white gap-4 flex font-bold md:gap-7  dark:text-gray-500">
+            <a class="item" href="">Home</a>
+            <a class="item" href="#about">About</a>
+            <a class="item" href="#shop">Shop</a>
+            <a class="item" href="#Testimony">Testimony</a>
+            <a class="item" href="#contact">Contact</a>
+            
+            <button id="btn-th">
+              <i class='bx bx-sun'></i>
+            </button>
+        </div>
+           </div>
+              <button id="btn-menu" class="sm:hidden text-white text-3xl mr-3  dark:text-gray-500" >
+                <i class='bx bx-menu' ></i>
+                
+                
+              </button>
+           
+            </div>
+
+            <div id="menu-mobile" class="text-center text-zinc-500 font-bold hidden dark:text-gray-500">
+              <a class="block hover:text-white p-2 item" href="">Home</a>
+              <a class="block hover:text-white p-2 item" href="#about">About</a>
+              <a class="block hover:text-white p-2 item" href="#shop">Shop</a>
+              <a class="block hover:text-white p-2 item" href="#Testimony">Testimony</a>
+              <a class="block hover:text-white p-2 item" href="#contact">Contact</a>
+             
+              <button id="btn-th">
+                <i class='bx bx-sun'></i>
+                
+              </button>
+            </div>
+
+        </nav>
+
+        <!-- hero section -->
+         <section class="h-screen flex justify-center items-center overlay_light bg-cover bg-center bg-fixed bg-no-repeat mb-20">
+          <div class="text-center p-8 sm:w-2/3 text-white dark:bg-slate-950 dark:text-gray-500">
+            <h1 class="font-bold mb-5 text-3xl md:text-4xl  lg:text-5xl">
+              Transform Your Space With Our Premuim Furniture
+            </h1>
+            <p class="text-lg md:text-xl font-semibold  mb-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequuntur, aut beatae repudiandae a
+            </p>
+
+            <button class="btn rounded-2xl mx-3 mb-3">
+              Show Now
+            </button>
+
+            <button class="btn rounded-2xl">
+              Explore
+            </button>
+
+
+          </div>
+         </section>
+
+      <!-- About -->
+
+         <section  class="container mx-auto mt-20 ">
+          <div class="flex flex-col md:flex-row items-center gap-8 md:p-0">
+            <div class="border border-zinc-500 md:w-3/5 ml-3 mr-3">
+            <img src="public/imgs/bg2.jpg" alt="" id="about">
+            </div>
+
+
+            <div class="md:w-3/4 p-3 text-slate-500">
+            <h2 class="text-xl md:text-3xl  lg:text-4xl font-bold mb-3 md:mb-1 lg:mb-3">
+                About Us
+            </h2>
+            <p class="leading-8 ">
+
+             
+                Welcome to <span class="font-semibold">Furnitura</span> , where craftsmanship meets creativity in every piece of furniture 
+                we design. Established in 1995 , our company has been dedicated to transforming spaces with
+                 high-quality, custom-made furniture that blends timeless elegance with modern functionality.
+
+                
+                 
+                 <p  class="leading-8 md:hidden lg:block"> Our skilled artisans and designers work tirelessly to ensure each item is not only aesthetically
+                   pleasing but also built to last, using the finest materials and innovative techniques.
+                    From luxurious sofas and elegant dining sets to bespoke bedroom furniture, 
+                    we take pride in offering pieces that reflect our commitment to excellence 
+                    and our passion for enhancing your home environment.</p>
+                  
+                 
+
+            </p>
+          </div>
+        </div>
+         </section>
+
+
+
+
+      <!-- Shop -->
+       <section id="shop"  class="container mx-auto mt-20  py-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3">
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f1.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f2.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f3.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f4.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f5.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+          <div  class="shadow-lg rounded-lg overflow-hidden mb-5 mx-4 dark:shadow-gray-500/25" >
+            <div >
+            <img class="w-full h-80 object-cover object-center hover:scale-[1.1] transition duration-300" src="public/imgs/f6.jpg" alt="">
+            </div>
+            <div class="p-7 text-slate-600">
+              <h2 class="text-xl font-bold mb-2">
+                Sofa Sets
+              </h2>
+              <p class=" mb-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Repudiandae aspernatur repellat 
+              </p>
+              <del class="text-slate-300 p-2 text-sm">
+                2OOO $
+              </del>
+              <span class="text-2xl font-bold">
+                1500 $
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- News Letter -->
+
+      <section class=" mx-auto mt-20 ">
+
+        <div class="bg-zinc-800 mx-auto flex flex-col lg:flex-row items-center py-8 dark:bg-slate-950 dark:border-4 border-gray-500/25 ">
+
+
+
+          <div class="mx-auto w-11/12 md:w-2/3 ">
+              <h2 class="text-xl text-white text-center font-bold mb-4 ">
+                Subscribe To Our News Letter
+              </h2>
+
+              <form class="relative mb-4 lg:ml-3">
+                <input type="email" placeholder="E-mail" class="w-full relative  py-2 ">
+                <button class="btn absolute top-0 right-0"> Subscribe</button>
+              </form>
+
+            </div>
+
+          <div class="flex md:w-5/6 gap-8  mx-3">
+             <img src="public/imgs/bg2.jpg" alt="" class=" h-60 w-60 shadow-lg mx-auto object-cover">
+             <img src="public/imgs/f3.jpg" alt="" class=" h-60 w-60 shadow-lg mx-auto object-cover">
+            </div>
+
+        
+
+
+
+        </div>
+
+      </section>
+
+
+      <!-- Testimony -->
+
+      <section id="Testimony" class="container mx-auto mt-20 ">
+        <div class="m-3 md:m-0">
+          <h2 class="text-2xl md:text-3xl  lg:text-4xl font-bold mb-8  text-center text-slate-500 dark:text-gray-500/25">Testimony</h2>
+          <div class="grid md:grid-cols-3">
+
+            <div class="bg-white shadow-lg rounded-lg flex flex-col justify-center items-center mb-7 py-5 md:mr-5 dark:shadow-gray-500/25 dark:bg-slate-950">
+
+
+            <div class="rounded-full w-20 h-20 mb-5">
+              <img src="public/imgs/p1 (1).jpeg" alt="" class="rounded-full w-20 h-20 mb-4 object-cover">
+            </div>
+            <div class="text-slate-500 text-center">
+              <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit magnam, 
+              quibusdam aliquam pariatur commodi ducimus
+            </p>
+            <p class="font-semibold text-xl">
+              Salova patchi
+            </p>
+            </div>
+
+          </div>
+          
+
+          <div class="bg-white shadow-lg rounded-lg flex flex-col justify-center items-center mb-7 py-5 md:mr-5 dark:shadow-gray-500/25 dark:bg-slate-950">
+
+
+            <div class="rounded-full w-20 h-20 mb-5">
+              <img src="public/imgs/p2.jpg" alt="" class="rounded-full w-20 h-20 mb-4 object-cover">
+            </div>
+            <div class="text-slate-500 text-center">
+              <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit magnam, 
+              quibusdam aliquam pariatur commodi ducimus
+            </p>
+            <p class="font-semibold text-xl">
+              Salova patchi
+            </p>
+            </div>
+
+          </div>
+
+
+          <div class="bg-white shadow-lg rounded-lg flex flex-col justify-center items-center mb-7 py-5 dark:shadow-gray-500/25 dark:bg-slate-950">
+
+
+            <div class="rounded-full w-20 h-20 mb-5 ">
+              <img src="public/imgs/p3.jpg" alt="" class="rounded-full w-20 h-20 mb-4 object-cover object-right-top">
+            </div>
+            <div class="text-slate-500 text-center">
+              <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit magnam, 
+              quibusdam aliquam pariatur commodi ducimus
+            </p>
+            <p class="font-semibold text-xl">
+              Salova patchi
+            </p>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+        </div>
+      </section>
+
+
+
+      <footer id="contact"  class="bg-zinc-800 text-white px-28 py-20 mt-20 dark:bg-slate-950 dark:border-4 border-gray-500/25 dark:text-gray-500/25">
+        <div class="container flex flex-col text-center md:flex-row justify-between">
+          <div class="mb-8 font-bold">
+            <a class="text-3xl" href="">Furnitura</a>
+          </div>
+          <div class="font-semibold mb-8">
+            <h4 class="text-lg mb-4">
+              Links
+            </h4>
+            <ul>
+            <li><a href="">Home</a></li>
+            <li> <a href="">About</a> </li>
+            <li> <a href="">Products</a> </li>
+            <li> <a href="">Testimony</a> </li>
+            </ul>
+          </div>
+
+          <div class="font-semibold mb-8">
+            <h4 class="text-lg mb-4">
+              Contact
+            </h4>
+            <ul>
+            <li><a href="">FAQ</a></li>
+            <li> <a href="">Blog</a> </li>
+            <li> <a href="">Contact</a> </li>
+           
+            </ul>
+          </div>
+
+          <div class="font-semibold mb-8">
+            <h4 class="text-lg mb-4">
+              Social
+            </h4>
+            <ul>
+            <li><a href="">1800233-233</a></li>
+            <li> <a href="">Furnitura@contact.com</a> </li>
+            
+            </ul>
+          </div>
+
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+</body>
+</html>
